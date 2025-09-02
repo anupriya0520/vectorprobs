@@ -1,0 +1,10 @@
+package basic.java;
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Vector<String> v=new Vector<>();
+        v.add("apple");
+        String str=v.get(0);
+        System.out.println(str.replace('p','b'));
+    }
+}
