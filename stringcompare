@@ -1,0 +1,14 @@
+package basic.java;
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Vector<String> v=new Vector<>();
+        v.add("hello");
+        v.add("java");
+        if(v.get(0).equals(v.get(1))) {
+        	System.out.println("equal");
+        }else {
+        	System.out.println("not equal");
+        }
+    }
+}
