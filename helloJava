@@ -1,0 +1,9 @@
+package basic.java;
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Vector<String> v=new Vector<>();
+        v.add("hello java");
+        System.out.println(v.get(0));
+    }
+}
