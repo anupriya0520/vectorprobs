@@ -1,0 +1,11 @@
+package basic.java;
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Vector<String> v=new Vector<>();
+        v.add("hello");
+        v.add("java");
+        String result=v.get(0)+v.get(1);
+        System.out.println(result);
+    }
+}
