@@ -1,0 +1,12 @@
+package basic.java;
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Vector<String> v=new Vector<>();
+        v.add("HELLO");
+        v.add("JAVA");
+        for(String s:v) {
+        	System.out.println(s.toLowerCase());
+        }
+    }
+}
